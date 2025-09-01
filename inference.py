@@ -62,7 +62,6 @@ if __name__ == "__main__":
         video_reader = decord.VideoReader(vid_dir)
         video_tensor = torch.from_numpy(video_reader.get_batch(range(len(video_reader))).asnumpy()).permute(0, 3, 1, 2)  # Convert to tensor and permute to (N, C, H, W)
         video_tensor = video_tensor[::fps].float()
-
         # process the image tensor
         video_tensor = preprocess_image(video_tensor)[None]
         with torch.no_grad():
@@ -144,7 +143,7 @@ if __name__ == "__main__":
                             fps=1, full_point=False, iters_track=4,
                             query_no_BA=True, fixed_cam=False, stage=1, unc_metric=unc_metric,
                             support_frame=len(video_tensor)-1, replace_ratio=0.2) 
-        
+        import pdb; pdb.set_trace()
         # resize the results to avoid too large I/O Burden
         # depth and image, the maximum side is 336
         max_size = 336

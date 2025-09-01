@@ -1,0 +1,11 @@
+Final Metrics across all sequences:
+epe3d_allo_image_all: 5.1702137314294285
+epe3d_allo_pixel_all: 5.322017353274991
+epe3d_sf_allo_image_all: 12.122805196962236
+epe3d_sf_allo_pixel_all: 12.467675049242871
+num_valid_pixels: 3607.0
+delta_0.05: 0.3431717214553265
+delta_0.1: 0.5659320160413925
+delta_0.2: 0.7735973725031033
+delta_0.4: 0.9421685285039322
+outlier_0.15: 0.3191574637267409

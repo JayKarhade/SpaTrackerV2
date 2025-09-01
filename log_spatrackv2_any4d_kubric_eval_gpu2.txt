@@ -1,0 +1,106 @@
+INFO:numexpr.utils:Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+INFO:numexpr.utils:Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+INFO:numexpr.utils:NumExpr defaulting to 16 threads.
+Seed set to: 0
+Using device: cuda
+Found 10 sequences.
+Using 10 sequences for evaluation.
+Processing sequence: 5700 with 50 pairs
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:01<01:09,  1.42s/it]  4%|▍         | 2/50 [00:02<01:08,  1.44s/it]  6%|▌         | 3/50 [00:04<01:07,  1.43s/it]  8%|▊         | 4/50 [00:05<01:05,  1.42s/it] 10%|█         | 5/50 [00:07<01:02,  1.39s/it] 12%|█▏        | 6/50 [00:08<01:02,  1.42s/it] 14%|█▍        | 7/50 [00:09<01:00,  1.41s/it] 16%|█▌        | 8/50 [00:11<00:56,  1.35s/it] 18%|█▊        | 9/50 [00:12<00:53,  1.31s/it] 20%|██        | 10/50 [00:13<00:52,  1.31s/it] 22%|██▏       | 11/50 [00:14<00:51,  1.32s/it] 24%|██▍       | 12/50 [00:16<00:49,  1.30s/it] 26%|██▌       | 13/50 [00:17<00:47,  1.28s/it] 28%|██▊       | 14/50 [00:18<00:45,  1.26s/it] 30%|███       | 15/50 [00:19<00:43,  1.25s/it] 32%|███▏      | 16/50 [00:21<00:43,  1.28s/it] 34%|███▍      | 17/50 [00:22<00:43,  1.30s/it] 36%|███▌      | 18/50 [00:23<00:42,  1.32s/it] 38%|███▊      | 19/50 [00:25<00:40,  1.30s/it] 40%|████      | 20/50 [00:26<00:39,  1.30s/it] 42%|████▏     | 21/50 [00:27<00:37,  1.31s/it] 44%|████▍     | 22/50 [00:29<00:36,  1.31s/it] 46%|████▌     | 23/50 [00:30<00:34,  1.29s/it] 48%|████▊     | 24/50 [00:31<00:33,  1.28s/it] 50%|█████     | 25/50 [00:33<00:33,  1.33s/it] 52%|█████▏    | 26/50 [00:34<00:31,  1.29s/it] 54%|█████▍    | 27/50 [00:35<00:29,  1.27s/it] 56%|█████▌    | 28/50 [00:36<00:28,  1.30s/it] 58%|█████▊    | 29/50 [00:38<00:27,  1.31s/it] 60%|██████    | 30/50 [00:39<00:26,  1.34s/it] 62%|██████▏   | 31/50 [00:41<00:25,  1.34s/it] 64%|██████▍   | 32/50 [00:42<00:24,  1.38s/it] 66%|██████▌   | 33/50 [00:43<00:23,  1.39s/it] 68%|██████▊   | 34/50 [00:45<00:22,  1.39s/it] 70%|███████   | 35/50 [00:46<00:21,  1.42s/it] 72%|███████▏  | 36/50 [00:48<00:19,  1.43s/it] 74%|███████▍  | 37/50 [00:49<00:18,  1.43s/it] 76%|███████▌  | 38/50 [00:51<00:17,  1.43s/it] 78%|███████▊  | 39/50 [00:52<00:15,  1.44s/it] 80%|████████  | 40/50 [00:54<00:14,  1.44s/it] 82%|████████▏ | 41/50 [00:55<00:12,  1.44s/it] 84%|████████▍ | 42/50 [00:56<00:11,  1.46s/it] 86%|████████▌ | 43/50 [00:58<00:10,  1.48s/it] 88%|████████▊ | 44/50 [00:59<00:08,  1.47s/it] 90%|█████████ | 45/50 [01:01<00:07,  1.46s/it] 92%|█████████▏| 46/50 [01:02<00:05,  1.44s/it] 94%|█████████▍| 47/50 [01:04<00:04,  1.44s/it] 96%|█████████▌| 48/50 [01:05<00:02,  1.45s/it] 98%|█████████▊| 49/50 [01:07<00:01,  1.42s/it]100%|██████████| 50/50 [01:08<00:00,  1.42s/it]100%|██████████| 50/50 [01:08<00:00,  1.37s/it]
+Building Test Data loader for dataset:  <torch.utils.data.dataset.Subset object at 0x7f7b05003530>
+Test dataset length:  50
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:01<01:15,  1.54s/it]  4%|▍         | 2/50 [00:02<01:08,  1.42s/it]  6%|▌         | 3/50 [00:04<01:01,  1.31s/it]  8%|▊         | 4/50 [00:05<00:58,  1.27s/it] 10%|█         | 5/50 [00:06<00:57,  1.28s/it] 12%|█▏        | 6/50 [00:07<00:55,  1.26s/it] 14%|█▍        | 7/50 [00:09<00:53,  1.24s/it] 16%|█▌        | 8/50 [00:10<00:51,  1.23s/it] 18%|█▊        | 9/50 [00:11<00:50,  1.23s/it] 20%|██        | 10/50 [00:12<00:48,  1.22s/it] 22%|██▏       | 11/50 [00:13<00:48,  1.23s/it] 24%|██▍       | 12/50 [00:15<00:47,  1.24s/it] 26%|██▌       | 13/50 [00:16<00:45,  1.23s/it] 28%|██▊       | 14/50 [00:17<00:44,  1.23s/it] 30%|███       | 15/50 [00:18<00:42,  1.20s/it] 32%|███▏      | 16/50 [00:19<00:40,  1.20s/it] 34%|███▍      | 17/50 [00:21<00:39,  1.20s/it] 36%|███▌      | 18/50 [00:22<00:37,  1.18s/it] 38%|███▊      | 19/50 [00:23<00:36,  1.18s/it] 40%|████      | 20/50 [00:24<00:35,  1.18s/it] 42%|████▏     | 21/50 [00:25<00:33,  1.17s/it] 44%|████▍     | 22/50 [00:26<00:32,  1.17s/it] 46%|████▌     | 23/50 [00:28<00:31,  1.16s/it] 48%|████▊     | 24/50 [00:29<00:29,  1.15s/it] 50%|█████     | 25/50 [00:30<00:28,  1.15s/it] 52%|█████▏    | 26/50 [00:31<00:27,  1.15s/it] 54%|█████▍    | 27/50 [00:32<00:26,  1.14s/it] 56%|█████▌    | 28/50 [00:33<00:25,  1.14s/it] 58%|█████▊    | 29/50 [00:34<00:23,  1.13s/it] 60%|██████    | 30/50 [00:36<00:22,  1.14s/it] 62%|██████▏   | 31/50 [00:37<00:21,  1.14s/it] 64%|██████▍   | 32/50 [00:38<00:20,  1.14s/it] 66%|██████▌   | 33/50 [00:39<00:19,  1.14s/it] 68%|██████▊   | 34/50 [00:40<00:18,  1.14s/it] 70%|███████   | 35/50 [00:41<00:17,  1.14s/it] 72%|███████▏  | 36/50 [00:42<00:15,  1.13s/it] 74%|███████▍  | 37/50 [00:43<00:14,  1.13s/it] 76%|███████▌  | 38/50 [00:45<00:13,  1.13s/it] 78%|███████▊  | 39/50 [00:46<00:12,  1.12s/it] 80%|████████  | 40/50 [00:47<00:11,  1.12s/it] 82%|████████▏ | 41/50 [00:48<00:10,  1.11s/it] 84%|████████▍ | 42/50 [00:49<00:08,  1.12s/it] 86%|████████▌ | 43/50 [00:50<00:07,  1.11s/it] 88%|████████▊ | 44/50 [00:51<00:06,  1.11s/it] 90%|█████████ | 45/50 [00:52<00:05,  1.11s/it] 92%|█████████▏| 46/50 [00:53<00:04,  1.11s/it] 94%|█████████▍| 47/50 [00:55<00:03,  1.10s/it] 96%|█████████▌| 48/50 [00:56<00:02,  1.09s/it] 98%|█████████▊| 49/50 [00:57<00:01,  1.10s/it]100%|██████████| 50/50 [00:58<00:00,  1.09s/it]100%|██████████| 50/50 [00:58<00:00,  1.17s/it]
+Using cache found in /jet/home/jkarhade/.cache/torch/hub/facebookresearch_dinov2_main
+WARNING:py.warnings:/jet/home/jkarhade/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+
+WARNING:py.warnings:/jet/home/jkarhade/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+
+WARNING:py.warnings:/jet/home/jkarhade/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+
+INFO:dinov2:using MLP layer as FFN
+WARNING:py.warnings:/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py:745: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+
+WARNING:py.warnings:/usr/local/lib/python3.12/dist-packages/torch/utils/checkpoint.py:87: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+
+Initializing <class 'anymap.models.mapa.any4d_mapa_dual_dpt_model.Any4D_MAPA_Dual_DPT'> with kwargs: {'torch_hub_force_reload': False, 'pretrained_checkpoint_path': None, 'load_specific_pretrained_submodules': False, 'specific_pretrained_submodules': [], 'name': 'any4d_mapa_dual_dpt', 'encoder_config': {'encoder_str': 'dinov2', 'name': 'dinov2_large', 'data_norm_type': 'dinov2', 'size': 'large', 'with_registers': False, 'uses_torch_hub': False, 'gradient_checkpointing': False}, 'info_sharing_config': {'model_type': 'alternating_attention', 'model_return_type': 'intermediate_features', 'custom_positional_encoding': None, 'module_args': {'name': 'aat_24_layers_ifr_mapa', 'indices': [11, 17], 'norm_intermediate': True, 'size': '24_layers', 'depth': 24, 'distinguish_ref_and_non_ref_views': True, 'gradient_checkpointing': False}}, 'pred_head_config': {'adaptor_config': {'input_dim': 6, 'scene_rep_dim': 4, 'type': 'raydirs+depth+pose+confidence+mask', 'scene_rep_type': 'raydirs+depth+pose', 'dense_pred_init_dict': {'name': 'raydirs+depth+pose+confidence+mask+scale', 'ray_directions_mode': 'linear', 'ray_directions_normalize_to_unit_sphere': True, 'ray_directions_normalize_to_unit_image_plane': False, 'ray_directions_vmin': -inf, 'ray_directions_vmax': inf, 'ray_directions_clamp_min_of_z_dir': False, 'ray_directions_z_dir_min': -inf, 'depth_mode': 'exp', 'depth_vmin': 0, 'depth_vmax': inf, 'confidence_type': 'exp', 'confidence_vmin': 1, 'confidence_vmax': inf}, 'pose_pred_init_dict': {'name': 'raydirs+depth+pose+confidence+mask+scale', 'cam_trans_mode': 'linear', 'cam_trans_vmin': -inf, 'cam_trans_vmax': inf, 'quaternions_mode': 'linear', 'quaternions_normalize': True, 'quaternions_vmin': -inf, 'quaternions_vmax': inf}, 'scale_pred_init_dict': {'name': 'raydirs+depth+pose+confidence+mask+scale', 'mode': 'exp', 'vmin': 1e-08, 'vmax': inf}}, 'type': 'dpt+pose', 'feature_head': {'feature_dim': 256, 'hooks': [0, 1, 2, 3]}, 'regressor_head': {'output_dim': 6}, 'pose_head': {'num_resconv_block': 2, 'rot_representation_dim': 4}, 'scale_head': {'output_dim': 1}, 'adaptor_type': 'raydirs+depth+pose+confidence+mask', 'dpt_adaptor': {'name': 'raydirs+depth+pose+confidence+mask+scale', 'ray_directions_mode': 'linear', 'ray_directions_normalize_to_unit_sphere': True, 'ray_directions_normalize_to_unit_image_plane': False, 'ray_directions_vmin': -inf, 'ray_directions_vmax': inf, 'ray_directions_clamp_min_of_z_dir': False, 'ray_directions_z_dir_min': -inf, 'depth_mode': 'exp', 'depth_vmin': 0, 'depth_vmax': inf, 'confidence_type': 'exp', 'confidence_vmin': 1, 'confidence_vmax': inf}, 'pose_adaptor': {'name': 'raydirs+depth+pose+confidence+mask+scale', 'cam_trans_mode': 'linear', 'cam_trans_vmin': -inf, 'cam_trans_vmax': inf, 'quaternions_mode': 'linear', 'quaternions_normalize': True, 'quaternions_vmin': -inf, 'quaternions_vmax': inf}, 'scale_adaptor': {'name': 'raydirs+depth+pose+confidence+mask+scale', 'mode': 'exp', 'vmin': 1e-08, 'vmax': inf}}, 'scene_flow_pred_head_config': {'adaptor_config': {'input_dim': 3, 'scene_rep_dim': 3, 'type': 'scene_flow+pose+scale', 'scene_rep_type': 'scene_flow+pose+scale', 'dense_pred_init_dict': {'name': 'scene_flow+pose+scale', 'mode': 'linear', 'vmin': -inf, 'vmax': inf}, 'pose_pred_init_dict': {'name': 'scene_flow+pose+scale', 'cam_trans_mode': 'linear', 'cam_trans_vmin': -inf, 'cam_trans_vmax': inf, 'quaternions_mode': 'linear', 'quaternions_normalize': True, 'quaternions_vmin': -inf, 'quaternions_vmax': inf}, 'scale_pred_init_dict': {'name': 'scene_flow+pose+scale', 'mode': 'exp', 'vmin': 1e-08, 'vmax': inf}}, 'type': 'dpt+pose', 'feature_head': {'feature_dim': 256, 'hooks': [0, 1, 2, 3]}, 'regressor_head': {'output_dim': 3}, 'pose_head': {'num_resconv_block': 2, 'rot_representation_dim': 4}, 'scale_head': {'output_dim': 1}, 'adaptor_type': 'scene_flow+pose+scale', 'dpt_adaptor': {'name': 'scene_flow+pose+scale', 'mode': 'linear', 'vmin': -inf, 'vmax': inf}, 'pose_adaptor': {'name': 'scene_flow+pose+scale', 'cam_trans_mode': 'linear', 'cam_trans_vmin': -inf, 'cam_trans_vmax': inf, 'quaternions_mode': 'linear', 'quaternions_normalize': True, 'quaternions_vmin': -inf, 'quaternions_vmax': inf}, 'scale_adaptor': {'name': 'scene_flow+pose+scale', 'mode': 'exp', 'vmin': 1e-08, 'vmax': inf}}, 'geometric_input_config': {'ray_dirs_encoder_config': {'name': 'ray_dirs_encoder', 'in_chans': 3, 'encoder_str': 'dense_rep_encoder', 'apply_pe': False}, 'depth_encoder_config': {'name': 'depth_encoder', 'in_chans': 1, 'encoder_str': 'dense_rep_encoder', 'apply_pe': False}, 'cam_rot_encoder_config': {'name': 'cam_rot_quats_encoder', 'in_chans': 4, 'encoder_str': 'global_rep_encoder'}, 'cam_trans_encoder_config': {'name': 'cam_trans_encoder', 'in_chans': 3, 'encoder_str': 'global_rep_encoder'}, 'scale_encoder_config': {'name': 'scale_encoder', 'in_chans': 1, 'encoder_str': 'global_rep_encoder'}, 'event_encoder_config': {'name': 'event_encoder', 'in_chans': 1, 'encoder_str': 'dense_rep_encoder'}, 'scene_flow_encoder_config': {'name': 'scene_flow_encoder', 'in_chans': 3, 'encoder_str': 'dense_rep_encoder'}, 'overall_prob': 0, 'dropout_prob': 1, 'ray_dirs_prob': 0, 'depth_prob': 0, 'cam_prob': 0, 'sparse_depth_prob': 0, 'sparsification_removal_percent': 0, 'depth_scale_norm_all_prob': 0, 'pose_scale_norm_all_prob': 0, 'event_imgs_prob': 0, 'scene_flow_prob': 0}}
+Loading pretrained dinov2_vitl14 from torch hub
+Loading model from:  /ocean/projects/cis220039p/mdt2/jkarhade/Any4D/any4d_experiments/mapanything_finetune_megatraining/any4d_mapa_dual_dpt_aug_training_dynamic_all_mapa_finetune_run_no_metric_supervision/checkpoint-best.pth
+<All keys matched successfully>
+Traceback (most recent call last):
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/spatrackv2_any4d_benchmark.py", line 819, in <module>
+    main()
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/spatrackv2_any4d_benchmark.py", line 595, in main
+    predictions = spatrackv2_inference(args, collected_views, collected_imgs, query_pts)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/spatrackv2_any4d_benchmark.py", line 430, in spatrackv2_inference
+    ) = model.forward(video_tensor, depth=depth_tensor,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/predictor.py", line 83, in forward
+    ret = self.spatrack.forward_stream(video, queries, T_org=T_,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/SpaTrack.py", line 293, in forward_stream
+    out = self.forward(segment, pts_q=queries_new,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/SpaTrack.py", line 634, in forward
+    ret_track, dyn_preds, final_tracks, rgb_tracks, intrs_org, point_map_org_refined, cache = self.Track3D(imgs_raw,
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/tracker3D/TrackRefiner.py", line 802, in forward
+    corr_depth_emb = self.corr_transformer[0](queried_feat.reshape(B*T*N,-1,128),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/tracker3D/co_tracker/utils.py", line 929, in forward
+    return checkpoint.checkpoint(forward_chunk, query, target, target_rel_pos)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py", line 745, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/checkpoint.py", line 489, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/checkpoint.py", line 264, in forward
+    outputs = run_function(*args)
+              ^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/tracker3D/co_tracker/utils.py", line 922, in forward_chunk
+    new_query = self.xblock1_2(query, target).mean(dim=1, keepdim=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/tracker3D/co_tracker/utils.py", line 434, in forward
+    x = x + self.cross_attn(
+            ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis220039p/mdt2/jkarhade/Any4D/benchmarking/SpaTrackerV2/models/SpaTrackV2/models/tracker3D/co_tracker/utils.py", line 377, in forward
+    x = (attn @ v).transpose(1, 2).reshape(B, N1, self.inner_dim)
+         ~~~~~^~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.07 GiB. GPU 0 has a total capacity of 79.21 GiB of which 880.75 MiB is free. Process 48203 has 78.34 GiB memory in use. Of the allocated memory 74.89 GiB is allocated by PyTorch, and 2.50 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

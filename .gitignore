@@ -1,5 +1,6 @@
 # ignore the multi media
 checkpoints
+spatrackv2_venv
 **/checkpoints/
 **/temp/
 temp
